@@ -1,7 +1,7 @@
 for i in range(1000):
-    print("if this is even, I have a thing here: {}".format("thing" if not i % 2 else ""))
+    print("if this is odd, I have a thing here: {}".format("thing" if i % 2 else ""))
 
-print("Sometimes... I get nervous... on airplanes")
+print("...and I'm new in town.")
 
 
-print(str([dog[0] for dog in ["charlie", "snoopy"]]))
+print(str([dog[0] for dog in ["charlie", "snoopy", "fido", "old yeller"]]))
